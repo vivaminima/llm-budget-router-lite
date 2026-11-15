@@ -1,0 +1,29 @@
+# router.toml - which provider and model each task uses.
+# Run:  python route.py --task summarize --brief brief.md --out answer.md
+
+[ledger]
+path = "costs.jsonl"            # the cost ledger, next to this file
+
+# One table per task name. provider is "anthropic" or "openai".
+[tasks.draft]
+provider = "anthropic"
+model = "claude-opus-5-5"
+max_tokens = 16000
+
+[tasks.summarize]
+provider = "openai"
+model = "REPLACE_WITH_AN_OPENAI_MODEL_ID"     # copy the id from your provider's model list
+max_tokens = 4000
+
+# What you loaded with each provider, in USD. --ledger subtracts the recorded cost from it.
+# "since" is optional: only calls on or after that day are subtracted.
+[balances.anthropic]
+amount = 25.00
+since = "2026-11-01"
+
+[balances.openai]
+amount = 10.00
+
+# Optional: another endpoint for a provider (a gateway of your own, a regional endpoint).
+# [providers.openai]
+# base_url = "https://api.openai.com"

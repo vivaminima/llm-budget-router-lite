@@ -1,0 +1,24 @@
+# prices.toml - USD per million tokens. You own this file: prices change, so check them on the
+# provider's official pricing page and update as_of when you do. The tool warns when as_of is
+# more than 90 days old. A model that is not listed here is recorded with cost "unknown" - never $0.
+
+as_of = "2026-11-03"
+currency = "USD"
+
+# Anthropic (first-party API list prices on the as_of date).
+[models."claude-opus-5-5"]
+input_per_mtok = 4.00
+output_per_mtok = 20.00
+
+[models."claude-sonnet-5-5"]
+input_per_mtok = 2.00
+output_per_mtok = 10.00
+
+[models."claude-haiku-5-5"]      # for prompts up to 100K tokens; longer prompts cost more
+input_per_mtok = 0.10
+output_per_mtok = 0.50
+
+# OpenAI: add the models you use. Copy both numbers from the official pricing page.
+# [models."your-openai-model-id"]
+# input_per_mtok = 0.00
+# output_per_mtok = 0.00
