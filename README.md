@@ -1,4 +1,6 @@
 # Route LLM requests and see what each call costs.
+
+*Part of the [Vivaminima tools](https://github.com/vivaminima) for Claude Code users.*
 Unlike LiteLLM or OpenRouter this is not a proxy or a server: it is one local Python file with no dependencies that sends one request, writes the answer to a file and keeps a cost ledger with no keys and no request or response text in it.
 
 ## New to this? Start here
@@ -119,7 +121,10 @@ MIT licence. See CHANGELOG.md.
 ## More from Vivaminima
 
 - **LLM Budget Router Pro ($19)**, the paid edition of this tool, one-time payment on Gumroad: https://vivastory4.gumroad.com/l/llm-budget-router-pro
-- **Token Audit Kit ($19)** — see how many tokens your CLAUDE.md and its @imports cost before your first prompt, and a step-by-step guide to split it. Free script: https://github.com/vivaminima/context-file-audit · Paid kit: https://vivaminima.lemonsqueezy.com/checkout/buy/57973270-94ea-4cc7-bcb4-294693714087
+
+  <a href="https://vivastory4.gumroad.com/l/llm-budget-router-pro"><img src="https://raw.githubusercontent.com/vivaminima/vivaminima/main/img/llm-budget-router-lite.png" width="480" alt="LLM Budget Router Pro"></a>
+
+- **Token Audit Kit ($19)** — see how many tokens your CLAUDE.md and its @imports cost before your first prompt, and a step-by-step guide to split it. Free script: https://github.com/vivaminima/context-file-audit · Paid kit (store): https://vivastory4.gumroad.com
 - Free tools: [skill-audit-kit](https://github.com/vivaminima/skill-audit-kit) · [secret-map](https://github.com/vivaminima/secret-map) · [inbox-ledger](https://github.com/vivaminima/inbox-ledger) · [release-gate](https://github.com/vivaminima/release-gate) · [skill-install-gate](https://github.com/vivaminima/skill-install-gate) · [console-safe](https://github.com/vivaminima/console-safe) · [checklist-stop](https://github.com/vivaminima/checklist-stop) · [handoff-check](https://github.com/vivaminima/handoff-check) · [llm-budget-router-lite](https://github.com/vivaminima/llm-budget-router-lite) · [go-no-go-verdict-skill](https://github.com/vivaminima/go-no-go-verdict-skill) · [ai-company-starter-kit](https://github.com/vivaminima/ai-company-starter-kit) · [beginner-readme-section](https://github.com/vivaminima/beginner-readme-section)
 
 Vivaminima is not affiliated with, endorsed by or sponsored by Anthropic.
