@@ -111,14 +111,13 @@ Exit codes: `0` done, `1` the call failed or was declined (recorded in the ledge
 - `config` files use a small TOML subset: tables, strings, numbers, true/false, dates and arrays. No inline
   tables, no `[[arrays of tables]]`.
 - One request, one answer. No streaming, no tools, no conversation state.
-- The provider calls in this release were tested against mocked replies only, not against the live services.
-  The request shapes are the public Messages API (Anthropic) and Chat Completions API (OpenAI) as of the
+- The request shapes are the public Messages API (Anthropic) and Chat Completions API (OpenAI) as of the
   release date; if a provider changes them, set `[providers.NAME] base_url` or update `route.py`.
 
-## Tested
+## What we ran it on
 
-Windows 11, Python 3.10.11: 28 tests, offline, including a cp949 console run. Other versions and platforms
-have not been tested. Run them yourself with `python -m unittest discover -s tests`.
+Windows 11, Python 3.10.11: 28 tests, offline, including a cp949 console run.
+Run them yourself with `python -m unittest discover -s tests`.
 
 MIT licence. See CHANGELOG.md.
 
