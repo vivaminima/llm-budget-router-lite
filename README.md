@@ -3,6 +3,8 @@
 *Part of the [Vivaminima tools](https://github.com/vivaminima) for Claude Code users.*
 
 <img src="https://raw.githubusercontent.com/vivaminima/vivaminima/main/img/run/llm-budget-router-lite.png" width="760" alt="llm-budget-router-lite: real output of the free version on a made-up sample">
+
+**Install in Claude Code:** `/plugin install llm-budget-router-lite --marketplace vivaminima/vivaminima`
 Unlike LiteLLM or OpenRouter this is not a proxy or a server: it is one local Python file with no dependencies that sends one request, writes the answer to a file and keeps a cost ledger with no keys and no request or response text in it.
 
 ## New to this? Start here
