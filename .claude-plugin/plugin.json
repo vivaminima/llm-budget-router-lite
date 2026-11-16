@@ -1,0 +1,18 @@
+{
+  "name": "llm-budget-router-lite",
+  "description": "Route LLM requests and see what each call costs. One local Python file, standard library only.",
+  "author": {
+    "name": "Vivaminima",
+    "url": "https://github.com/vivaminima"
+  },
+  "homepage": "https://vivastory4.gumroad.com/l/llm-budget-router-pro",
+  "repository": "https://github.com/vivaminima/llm-budget-router-lite",
+  "license": "MIT",
+  "keywords": [
+    "anthropic",
+    "cli",
+    "cost-tracking",
+    "llm",
+    "openai"
+  ]
+}
